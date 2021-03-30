@@ -14,7 +14,7 @@ Workflow:
 
 ## Problem A: underscore as subscript       
 
-Equation in the file Anotworking.R:   
+Equation in the file `Anotworking.R`:   
 `\hat{p}_c = \frac{1}{N} \sum_{i=1}^N B_{i,c}` 
 
 How the equation is converted in `Anotworking.Rd`:   
@@ -22,7 +22,7 @@ How the equation is converted in `Anotworking.Rd`:
 
 The problem seems to be with `{p}`.   
 
-Equation in the file Aworking.R are converted correctly:
+Equation in the file `Aworking.R` are converted correctly:   
 `p_{c} = \frac{1}{N} \sum_{i=1}^N B_{i,c}`
 
 ## Problem B: underscore as text   
@@ -37,19 +37,51 @@ Similarly to before, the problem is at the start. When the underscore is replace
 `w\text{ }outlier_{i,c}B_{i,c}=1-\frac{d_{i,c}}{\lbrace {d_{j,c}`
 
 ### Session Information
-R version 4.0.2 (2020-06-22)
-Platform: x86_64-apple-darwin17.0 (64-bit)
-Running under: macOS Catalina 10.15.
+R version 4.0.2 (2020-06-22)     
+Platform: x86_64-apple-darwin17.0 (64-bit)      
+Running under: macOS Catalina 10.15.      
 
-loaded via a namespace (and not attached):
- [1] Rcpp_1.0.5        mathjaxr_1.4-0    compiler_4.0.2    prettyunits_1.1.1
- [5] remotes_2.2.0     tools_4.0.2       testthat_2.3.2    digest_0.6.25    
- [9] packrat_0.5.0     pkgbuild_1.1.0    pkgload_1.1.0     memoise_1.1.0    
-[13] lifecycle_0.2.0   rlang_0.4.10      cli_2.0.2         rstudioapi_0.11  
-[17] commonmark_1.7    xfun_0.20         withr_2.4.1       stringr_1.4.0    
-[21] roxygen2_7.1.1    knitr_1.28        xml2_1.3.2        desc_1.2.0       
-[25] fs_1.4.2          devtools_2.3.2    rprojroot_1.3-2   glue_1.4.1       
-[29] R6_2.4.1          processx_3.4.4    fansi_0.4.1       sessioninfo_1.1.1
-[33] callr_3.5.1       purrr_0.3.4       magrittr_1.5      backports_1.1.8  
-[37] ps_1.3.3          ellipsis_0.3.1    usethis_2.0.1     assertthat_0.2.1 
-[41] tinytex_0.23      stringi_1.4.6     crayon_1.3.4   
+loaded via a namespace (and not attached):     
+Rcpp_1.0.5        
+mathjaxr_1.4-0    
+compiler_4.0.2    
+prettyunits_1.1.1    
+remotes_2.2.0     
+tools_4.0.2       
+testthat_2.3.2    
+digest_0.6.25    
+packrat_0.5.0     
+pkgbuild_1.1.0    
+pkgload_1.1.0     
+memoise_1.1.0    
+lifecycle_0.2.0   
+rlang_0.4.10      
+cli_2.0.2         
+rstudioapi_0.11  
+commonmark_1.7    
+xfun_0.20         
+withr_2.4.1       
+stringr_1.4.0    
+roxygen2_7.1.1    
+knitr_1.28        
+xml2_1.3.2        
+desc_1.2.0       
+fs_1.4.2          
+devtools_2.3.2    
+rprojroot_1.3-2   
+glue_1.4.1       
+R6_2.4.1          
+processx_3.4.4    
+fansi_0.4.1       
+sessioninfo_1.1.1     
+callr_3.5.1       
+purrr_0.3.4       
+magrittr_1.5      
+backports_1.1.8  
+ps_1.3.3          
+ellipsis_0.3.1    
+usethis_2.0.1     
+assertthat_0.2.1   
+tinytex_0.23      
+stringi_1.4.6     
+crayon_1.3.4   
